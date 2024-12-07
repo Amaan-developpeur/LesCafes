@@ -1,0 +1,108 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred; 
+}
+
+/* Header styling */
+header {
+    background-color: #0a1128; /* Navy blue */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cafes list section */
+#cafes-list {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f9; /* Light grey to match the overall background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Cafe item styling */
+.cafe-item {
+    padding: 30px;
+    margin-bottom: 20px; /* Space between items */
+    border: 2px solid #3d5a80; /* Blue-grey border */
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between; /* Distribute space between left and right sections */
+    align-items: flex-start;
+    background-color: peachpuff; /*  background for each cafe card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for cafe items */
+.cafe-item:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+    box-shadow: 0 20px 16px rgba(0, 0, 0, 0.6); /* More prominent shadow on hover */
+}
+
+/* Left section for Cafe Name, Image, Rating */
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 45%; /* Adjust width as needed */
+}
+
+/* Right section for Description and Address */
+.right {
+    width: 50%; /* Adjust width as needed */
+    padding-left: 20px; /* Space between the left and right section */
+    text-align: left;
+}
+
+/* About and Address headings */
+.right h4 {
+    font-weight: bold;
+    color: #ee6c4d; /* Coral for headings */
+}
+
+/* About and Address text */
+.right p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333333; /* Dark grey for text */
+}
+
+/* Cafe name styling */
+.cafe-name {
+    font-size: 90px;
+    margin-bottom: 10px; /* Space between name and image */
+    font-weight: bold;
+    color: #0a1128; /* Navy blue */
+}
+
+/* Cafe image styling */
+.cafe-image {
+    width: 350px; /* Increase width */
+    height: 250px; /* Increase height */
+    object-fit: cover; /* Maintain aspect ratio while cropping if needed */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between image and ratings */
+}
+
+/* Cafe rating styling */
+.rating {
+    font-size: 16px; /* Adjust the font size */
+    font-weight: bold;
+    color: rgb(255,99,71) /* Coral for ratings */
+    margin-top: 5px; /* Add space above the ratings */
+}
+
+/* Cafe card hover effect */
+.cafe-item:hover {
+    background-color: powderblue; /* Light blue tint on hover */
+    cursor: pointer;
+}
+
+/* Add some space between sections */
+section {
+    margin-bottom: 20px;
+}
