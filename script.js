@@ -4,7 +4,7 @@ const cafes = [
         name: '1. "C\'Lovers', 
         rating: 4.7, 
         image: 'Lesimages/Clover.jpg', 
-        about: 'Its a Cafe owned by Feroz, we have to show-up there.', 
+        about: 'Its a Cafe owned by Feroz. We have to showup there.',
         address: 'RTC-X Road, Hyderabad'
     },
     { 
